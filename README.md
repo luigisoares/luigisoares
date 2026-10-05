@@ -1,40 +1,30 @@
-## Luigi Soares
+# Hey, I'm Luigi 👋
 
-**Full-stack engineer shipping AI to production, on the edge.**
-Durable workflows, serverless Postgres, and LLMs that have to be *right*, not just impressive.
+Full-stack dev who fell hard for AI. These days I'm mostly turning LLMs into production systems that hold up with real data, at real scale.
 
-<img src="https://skillicons.dev/icons?i=ts,svelte,cloudflare,postgres,react,tailwind,py" />
+🎓 Computer Science @ PUC Minas · 💻 7+ years building software · 📫 [luigisoares96@gmail.com](mailto:luigisoares96@gmail.com)
 
-```jsonc
-// wrangler.jsonc
-{
-  "name": "luigi",
-  "main": "src/curiosity.ts",
-  "compatibility_date": "2026-10-04",
-  "workflows": [{ "name": "idea-to-prod", "class_name": "ShipItWorkflow" }],
-  "durable_objects": { "bindings": [{ "name": "BRAIN", "class_name": "AlwaysLearningDO" }] },
-  "hyperdrive": [{ "binding": "DB", "id": "neon-postgres" }],
-  "r2_buckets": [{ "binding": "SIDE_PROJECTS", "bucket_name": "too-many" }],
-  "observability": { "enabled": true } // "it worked locally" is not a metric
-}
-```
+### 🤖 The AI side
 
-### What I build with
+- Turning LLMs into features people actually rely on, not just cool demos
+- Prompts, evals and tracing, because "it looked right" is not a test
+- Claude, AI SDK, Langfuse, and a lot of agentic coding with Claude Code
 
-| | |
-|---|---|
-| **Edge** | Cloudflare Workers · Workflows · Durable Objects · R2 · Hyperdrive |
-| **Data** | Postgres on Neon · Drizzle ORM |
-| **API** | Hono · Zod + OpenAPI |
-| **Front & mobile** | SvelteKit · Tailwind · Expo / React Native |
-| **AI** | AI SDK · Claude · evals & tracing with Langfuse |
-| **Shipping** | Turborepo + pnpm · Clerk · Stripe · Sentry · Vitest · Playwright · Biome |
+### ☁️ The infra side
 
-### Lately
+- I like my backends serverless and my workflows durable: Cloudflare Workers, Workflows, Durable Objects, R2
+- Postgres on Neon + Drizzle, typed from the database all the way to the UI
+- Long-running jobs that retry themselves, fan out, and still tell the UI what's going on
 
-- 🧠 Long-running AI pipelines on Cloudflare Workflows: retries, fan-out, evals, real-time updates
-- 🍳 **GastroOps**: a restaurant task app that has to be *simpler than paper*. Expo + Hono on Workers + Neon + R2
+### 🛠️ Everyday toolbox
 
-Currently making LLM pipelines boring. In the good way.
+<img src="https://skillicons.dev/icons?i=ts,svelte,cloudflare,postgres,py,react,tailwind,vitest,sentry,githubactions" />
 
-<sub>Off the clock: offline voice AI on my own GPU, and a Rust desktop assistant I talk to.</sub>
+TypeScript · SvelteKit · Hono · Python · Expo · Tailwind · Vitest · Sentry
+
+### 🔥 Lately
+
+- 🧠 AI pipelines that chew through big batches with an LLM, recover when things break, and stream progress live
+- 🎙️ Side quest: running voice AI 100% offline on my own GPU, just because I can
+
+Always poking at whatever's new in AI. If a new model dropped this week, I've probably already broken something with it.
