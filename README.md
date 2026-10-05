@@ -1,5 +1,4 @@
-## Full-stack developer · AI-powered products
-Mostly TypeScript, Cloudflare and Claude.
+**Full-stack developer building AI-powered products, mostly with TypeScript, Cloudflare and Claude.**
 
 🎓 Computer Science @ PUC Minas · 💻 7+ years building software · 📫 [luigisoares96@gmail.com](mailto:luigisoares96@gmail.com)
 
