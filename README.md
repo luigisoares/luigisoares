@@ -16,6 +16,6 @@ TypeScript · SvelteKit · Hono · Python · Drizzle · Claude · AI SDK · Lang
 
 - 🧠 AI pipelines that chew through big batches, recover when things break, and stream progress live
 - 🤖 Claude skills and agents that take the repetitive stuff off the team's plate
-- 🎙️ Voice AI running fully offline on my own GPU, mostly to see how it works under the hood
+- 🎙️ [Hands-Free](https://github.com/luigisoares/hands-free): voice dictation running fully offline on my own GPU, mostly to see how it works under the hood
 
 Always trying new models and tools as they come out, usually with Claude as my study partner.
